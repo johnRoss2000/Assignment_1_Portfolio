@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('./app');
+let app = require('./app.js');
 let debug = require('debug')('assignment-1-portfolio:server');
 let http = require('http');
 
