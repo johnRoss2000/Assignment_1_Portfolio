@@ -2,16 +2,10 @@
 
 (function () {
 
-  function Start() {
-    console.lof("App Started...");
-  }
+    function Start() {
+        console.lof("App Started...");
+    }
 
-  window.addEventListener("load", Start);
+    window.addEventListener("load", Start);
 
 })();
-
-
-
-
-
-
