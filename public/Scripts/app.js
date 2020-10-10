@@ -1,4 +1,4 @@
-// IIFE -- Immediately Invoked Function Expression
+// I.I.F.E. -- Immediately Invoked Function Expression
 
 (function () {
 
