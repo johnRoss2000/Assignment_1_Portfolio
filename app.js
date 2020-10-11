@@ -10,6 +10,23 @@ let usersRouter = require('./routes/users');
 
 let app = express();
 
+/*
+
+var  express  =  require ( ' express ' ) ;
+var  ejs  =  require ( ' ejs ' ) ;
+var  app  =  express ( ) ;
+app . set ( ' view engine ' ,  ' ejs ' ) ;
+app . get ( " / " ,  function ( req ,  res )  {
+    res . render ( " home " ) ;
+} ) ;
+app . get ( " /about " ,  function ( req ,  res )  {
+    res . render ( " about " ) ;
+} ) ;
+
+*/
+
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs'); // express  -e
